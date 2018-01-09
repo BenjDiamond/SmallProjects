@@ -5,25 +5,10 @@ public class Checkout {
     private int itemC = 30;
     private int itemD = 25;
 
-    private int countA;
-    private int countB;
-    private int countC;
-    private int countD;
-
-    private int A_SpecAmount;
-    private int A_SpecTotal;
-
-    private int B_SpecAmount;
-    private int B_SpecTotal;
-
-    private int C_SpecAmount;
-    private int C_SpecTotal;
-
-    private int D_SpecAmount;
-    private int D_SpecTotal;
-
-    private int total;
-
+    private int countA, counB, countC, countD, 
+                A_SpecAmount, A_SpecTotal, B_SpecAmount, B_SpecTotal C_SpecAmount, C_SpecTotal, D_SpecAmount, D_SpecTotal,
+                total;
+  
     protected Checkout(int rules[][]) {
 
         A_SpecAmount = rules[0][0];
