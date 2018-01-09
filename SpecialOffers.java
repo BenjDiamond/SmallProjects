@@ -7,7 +7,8 @@ package com.esendex;
         int setC[] = new int[2];
         int setD[] = new int[2];
 
-        public SpecialOffers(int A_amount, int A_offer, int B_amount, int B_offer, int C_amount, int C_offer, int D_amount, int D_offer) {
+        public SpecialOffers(int A_amount, int A_offer, int B_amount, int B_offer, 
+                             int C_amount, int C_offer, int D_amount, int D_offer) {
             System.out.println("Ready to scan.");
             setA[0] = A_amount;
             setA[1] = A_offer;
