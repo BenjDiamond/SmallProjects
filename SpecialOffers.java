@@ -1,5 +1,3 @@
-package com.esendex;
-
     public class SpecialOffers {
 
         int setA[] = new int[2];
