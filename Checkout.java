@@ -1,5 +1,3 @@
-package com.esendex;
-
 public class Checkout {
 
     private int itemA = 60;
